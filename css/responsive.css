@@ -1,0 +1,19 @@
+/* 
+mobile-first
+breakpoint: 768px, 1024px
+*/
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
