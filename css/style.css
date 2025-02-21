@@ -51,17 +51,21 @@ header h2 {
   display: flex;
   flex-direction: column;
   width: 24rem;
-  flex-wrap: wrap;
   gap: 3rem;
+  margin-bottom: 12rem;
 }
 
 .banner .title {
   line-height: 5rem;
+  flex-wrap: wrap;
 }
 
 .view-button {
   padding: 1.1rem 8rem;
   border-radius: 40px;
   font-size: 1.4rem;
-  margin-bottom: 12rem;
+}
+
+/* contents cards */
+.cards {
 }
