@@ -1,5 +1,6 @@
 header,
-main,
+.banner,
+.cards,
 footer {
   padding: 0 20rem;
 }
@@ -34,6 +35,33 @@ header h2 {
 }
 
 /* banner */
+.banner-img {
+  max-height: 34rem;
+}
+
 .banner {
   background-color: var(--primary-50);
+  height: 54rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.banner .title {
+  line-height: 5rem;
+}
+
+.view-button {
+  padding: 1.1rem 8rem;
+  border-radius: 40px;
+  font-size: 1.4rem;
+  margin-bottom: 12rem;
 }
