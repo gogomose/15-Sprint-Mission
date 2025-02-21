@@ -1,0 +1,39 @@
+header,
+main,
+footer {
+  padding: 0 20rem;
+}
+
+/* header */
+header {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 4rem;
+}
+
+header h2 {
+  font-weight: 900;
+  color: var(--primary-100);
+  margin-left: 1rem;
+}
+
+.login-button {
+  padding: 1.3rem 4rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+/* banner */
+.banner {
+  background-color: var(--primary-50);
+}
