@@ -36,6 +36,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .logo {
@@ -206,10 +207,10 @@ footer {
     color: #E5E7EB;
 }
 
-.footer-right img {
+.footer-right a {
     margin-right: 12px;
 }
 
-.footer-right img:last-child {
+.footer-right a:last-child {
     margin: 0;
 }
