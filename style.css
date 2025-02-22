@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 200px;
+    padding: 9px 0;
+}
+
+.header-logo {
+    width: 153px;
+    height: 51px;
+}
+.button-layout {
+    background-color: #3692FF;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-layout.login-button {
+    border-radius: 8px;
+    width: 128px;
+    height: 48px;
+    padding: 12px 23px;
+    color: #F3F4F6;
+
+}
