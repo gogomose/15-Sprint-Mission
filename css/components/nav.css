@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 25rem);
+  max-width: 1920px;
+  height: 4.4rem;
+  padding: 9px 0;
+  img {
+    height: 100%;
+  }
+  button {
+    width: 6.5rem;
+    height: 3rem;
+    padding: 0.5rem 1.45rem;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    background-color: #3692ff;
+  }
+}
+
+@media (min-width: 1920px) {
+  nav {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+@import "reset.css";
+
+/* components */
+@import "components/nav.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
