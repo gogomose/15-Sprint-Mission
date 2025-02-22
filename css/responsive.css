@@ -9,7 +9,11 @@ breakpoint: 1920px, 1024px, 768px
   }
 
   header {
-    padding: 0 200px;
+    margin: 0 200px;
+  }
+
+  .header-content {
+    max-width: none;
   }
 }
 
@@ -19,7 +23,7 @@ breakpoint: 1920px, 1024px, 768px
   }
 
   header {
-    padding: 0 0;
+    margin: 0 2rem;
   }
 
   .banner {
@@ -58,14 +62,39 @@ breakpoint: 1920px, 1024px, 768px
     flex-direction: column;
     text-align: end;
   }
+
+  .footer-content {
+    max-width: 60rem;
+  }
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 6px;
+  .logo {
+    display: none;
   }
-  /* 
-  로고 이미지 사라짐 
-  
-  */
+
+  .home-cards {
+    margin-top: 4rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 0.6fr;
+    grid-template-areas:
+      "support social"
+      "copyright .";
+  }
+
+  .support {
+    grid-area: support;
+    justify-self: start;
+  }
+
+  .social-media {
+    grid-area: social;
+  }
+
+  .copyright {
+    grid-area: copyright;
+  }
 }
