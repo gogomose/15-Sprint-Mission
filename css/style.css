@@ -1,7 +1,17 @@
+/* 
+flex-wrap >
+*/
 /* header */
 header {
-  padding: 0 20rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
   height: 7rem;
+}
+
+.header-content {
+  max-width: 110rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,9 +52,10 @@ header h2 {
 }
 
 .banner-content {
+  max-width: 30rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 24rem;
   gap: 3rem;
   margin-bottom: 12rem;
 }
@@ -55,29 +66,42 @@ header h2 {
 }
 
 .view-button {
-  padding: 1.1rem 8rem;
+  padding: 1.1rem 10rem;
   border-radius: 40px;
   font-size: 1.4rem;
 }
 
 /* bottom banner */
 .bottom {
+  width: 100%;
   background-color: var(--secondary-300);
   padding-top: 13rem;
 }
 
-/* contents cards */
-.home-card-container {
-  padding: 13rem 46rem;
+/* home-cards home-card */
+.home-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.home-card {
+.home-card-container {
+  max-width: 95rem;
+  padding: 13rem 0;
+}
+
+.home-card-content {
   display: flex;
-  height: 44rem;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
+  height: 44rem;
   background-color: var(--secondary-300);
+}
+
+.home-card-img {
+  max-width: 58rem;
 }
 
 .home-card-info {
@@ -112,12 +136,20 @@ header h2 {
 /* footer */
 footer {
   background-color: var(--secondary-900);
-  padding: 3rem 30rem 10rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.footer-content {
+  max-width: 95rem;
+  width: 100%;
+  height: 16rem;
   color: white;
   font-size: 1.6rem;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .support a {
