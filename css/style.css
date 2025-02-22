@@ -51,7 +51,7 @@ html {
   gap: 2rem;
 }
 
-/* 상단/하단 배너 요소의 h태그 스타일 적용  */
+/* 상단/하단 배너 요소의 박스요소 스타일 적용  */
 .contents .content {
   width: 100%;
   display: flex;
@@ -61,6 +61,13 @@ html {
   padding: 5% 2.5%;
   margin-left: auto;
   max-width: fit-content;
+}
+
+/* 상단/하단 배너 요소의 박스 안 h태그 스타일 적용 */
+.content h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
 }
 
 /* 배너 요소 안 '구경하러 가기' 버튼 스타일 적용 */
