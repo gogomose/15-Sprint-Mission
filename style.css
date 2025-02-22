@@ -7,19 +7,24 @@
 }
 * {
   font-family: "Pretendard-Regular";
-  margin: 0;
-  border: none;
-  text-decoration: none;
 }
-
 button:hover {
   cursor: pointer;
 }
-nav {
-  display: flex;
-  height: 2.5em;
-  justify-content: space-around;
+header {
   padding: 0.8em;
+  margin: auto;
+}
+nav {
+  width: calc(100% - 200px);
+  height: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.banner h1 {
+  letter-spacing: -0.1em;
+  font-size: 2.5em;
 }
 nav > button {
   padding: 0.8em 2em;
@@ -30,7 +35,7 @@ nav > button {
 nav > button > a {
   color: white;
 }
-#main-wrapper {
+.main-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,21 +46,24 @@ nav > button > a {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10rem 0 0;
+  padding: 10em 0 0;
+}
+.banner img {
+  width: 50%;
 }
 #banner-content {
   position: relative;
   bottom: 0;
 }
 .banner h1 {
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 700;
   line-height: 1.5;
 }
 .banner > div > button {
   background-color: #3692ff;
   padding: 0.8em 6em;
-  border-radius: 9999px;
+  border-radius: 999px;
 }
 .banner > div > button > a {
   color: white;
@@ -70,7 +78,6 @@ nav > button > a {
 .card {
   width: 80%;
   display: flex;
-  /* gap: 100px; */
   justify-content: space-between;
   background-color: #fcfcfc;
   flex-grow: 1;
@@ -83,14 +90,42 @@ nav > button > a {
 }
 
 .card h2 {
-  margin: 1em 0;
+  margin: 0.2em 0;
   line-height: 1.4;
   text-align: left;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.card-box:nth-child(2),
+.card-box:nth-child(2) h2 {
+  text-align: right;
 }
 
-.cart p {
+.card p {
   color: #374151;
+  line-height: 1.4;
 }
 .card > img {
   width: 50%;
+}
+footer {
+  background-color: #111827;
+  width: 100%;
+  height: 11.875em;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em;
+}
+.copyright {
+  color: #9ca3af;
+}
+.info:nth-child(2n) {
+  margin: 0 0.8em;
+}
+.info {
+  color: #e5e7eb;
+}
+
+.sns {
+  padding: 0 0.2em;
 }
