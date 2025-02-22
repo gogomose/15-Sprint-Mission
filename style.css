@@ -19,6 +19,7 @@
 
 html {
     font-family: 'Pretendard', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -51,14 +52,14 @@ a {
 
 .logo-text {
     font-family: 'ROKAF Sans', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 700;
     margin-top: 10px;
     color: #3692FF
 }
 
 .login-link {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: #ffffff;
     background-color: #3692FF;
@@ -108,14 +109,14 @@ a {
 
 .top-section-text p,
 .bottom-section-text p {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 56px;
     color: #374151;
 }
 
 .top-section-text a {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #ffffff;
     background-color: #3692FF;
@@ -158,21 +159,21 @@ a {
 }
 
 .small-text {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     line-height: 56px;
     color: #3692FF;
 }
 
 .big-text {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 56px;
     color: #374151;
 }
 
 .main-section p {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 32px;
     color: #374151;
@@ -192,7 +193,7 @@ footer {
 }
 
 .codeit {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
     color: #9CA3AF
@@ -201,7 +202,7 @@ footer {
 .footer-center {
     display: flex;
     gap: 30px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
     color: #E5E7EB;
