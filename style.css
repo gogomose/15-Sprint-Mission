@@ -65,7 +65,8 @@ a {
     padding: 12px 23px;
 }
 
-.top-section {
+.top-section,
+.bottom-section {
     background-color: #CFE5FF;
     height: 540px;
     display: flex;
@@ -73,9 +74,18 @@ a {
     justify-content: center;
 }
 
+.bottom-section {
+    margin-top: 138px;
+}
+
 .top-section>img {
     width: 746px;
     height: 340px;
+}
+
+.bottom-section>img {
+    width: 746px;
+    height: 397px;
 }
 
 .top-section-container {
@@ -84,11 +94,19 @@ a {
     gap: 7px;
 }
 
-.top-section-text {
+.bottom-section-container {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+
+.top-section-text,
+.bottom-section-text {
     padding-bottom: 60px;
 }
 
-.top-section-text p {
+.top-section-text p,
+.bottom-section-text p {
     font-size: 40px;
     font-weight: 700;
     line-height: 56px;
