@@ -69,6 +69,10 @@ li {
   margin-bottom: 0.5rem;
 }
 
+a {
+  cursor: pointer;
+}
+
 button {
   background-color: var(--primary-100);
   color: white;
