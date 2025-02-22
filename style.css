@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: "Pretendard-Regular";
+  margin: 0;
+  border: none;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  height: 2.5em;
+  justify-content: space-around;
+  padding: 0.8em;
+}
+nav > button {
+  padding: 0.8em 2em;
+  border-radius: 8px;
+  background: #3692ff;
+  font-size: 1em;
+}
+nav > button > a {
+  color: white;
+}
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  background-color: #cfe5ff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0 0;
+}
+#banner-content {
+  position: relative;
+  bottom: 0;
+}
+.banner h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.banner > div > button {
+  background-color: #3692ff;
+  padding: 0.8em 6em;
+  border-radius: 9999px;
+}
+.banner > div > button > a {
+  color: white;
+  font-weight: 300;
+}
+.card-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10em 0 15em;
+}
+.card {
+  width: 80%;
+  display: flex;
+  /* gap: 100px; */
+  justify-content: space-between;
+  background-color: #fcfcfc;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.1em;
+  color: #3692ff;
+  font-weight: 700;
+}
+
+.card h2 {
+  margin: 1em 0;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.cart p {
+  color: #374151;
+}
+.card > img {
+  width: 50%;
+}
