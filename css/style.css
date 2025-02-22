@@ -10,10 +10,6 @@ html {
   font-size: 16px;
 }
 
-/* body {
-  width: 100%;
-} */
-
 /* 헤더 */
 #header {
   display: flex;
@@ -21,8 +17,6 @@ html {
   align-items: center;
   height: 70px;
   padding: 9px 20%;
-
-  /* width: 100%; */
   border-bottom: 1px solid #dfdfdf;
 }
 
@@ -35,24 +29,20 @@ html {
 /* 헤더 로그인 */
 .loginBtn {
   background-color: #3692ff;
-
-  border-radius: 8px;
-  text-align: center;
-  padding: 12px 23px;
-  text-decoration: none;
   color: white;
-
+  border-radius: 8px;
+  padding: 0.75rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 26px;
-
-  width: 128px;
-  height: 48px;
-
+  line-height: 1.625rem;
+  width: 8rem;
+  height: 3rem;
   white-space: nowrap;
 }
 
-/* 배너 */
+/* 상단 배너 */
 .contents {
   display: flex;
   background-color: #cfe5ff;
@@ -63,25 +53,23 @@ html {
 
 /* 상단/하단 배너 요소의 h태그 스타일 적용  */
 .contents .content {
-  /* max-width: 1920px; */
-  width: 30%;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;
   padding: 5% 2.5%;
   margin-left: auto;
+  max-width: fit-content;
 }
 
 /* 배너 요소 안 '구경하러 가기' 버튼 스타일 적용 */
 .contentBtn {
-  padding: 16px 10%;
+  padding: 1rem 10%;
   background-color: #3692ff;
-  /* height: 56px; */
   border-radius: 40px;
   color: white;
   text-decoration: none;
-
   font-weight: 600;
   font-size: 1.25rem;
   text-align: center;
@@ -126,35 +114,35 @@ html {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
+  flex-wrap: nowrap;
 }
 
 /* mainContent 내부의 글자 요소 스타일 적용 */
 .imageText h4 {
   color: #3692ff;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 1.125vw;
 }
 
 .imageText h2 {
   color: #374151;
   font-weight: 700;
-  line-height: 56px;
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   letter-spacing: 2%;
 }
 
 .imageText p {
   color: #374151;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 /* footer */
 #footer {
   background-color: #111827;
   display: flex;
-  padding: 32px 5%;
+  padding: 2rem 5%;
 }
 
 /* footer안의 내부 요소를 감싼 div 스타일 적용 */
