@@ -19,7 +19,7 @@
 
 html {
     font-family: 'Pretendard', sans-serif;
-    font-size: 16px;
+    font-size: 0.83vw;
 }
 
 body {
@@ -31,7 +31,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
-    height: 70px;
+    height: 3.65vw;
     background-color: #ffffff;
 }
 
@@ -43,18 +43,18 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.52vw;
 }
 
 .logo-img {
-    width: 40px;
+    width: 2.08vw;
 }
 
 .logo-text {
     font-family: 'ROKAF Sans', sans-serif;
     font-size: 1.5625rem;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 0.52vw;
     color: #3692FF
 }
 
@@ -63,55 +63,55 @@ a {
     font-weight: 600;
     color: #ffffff;
     background-color: #3692FF;
-    border-radius: 8px;
-    padding: 12px 23px;
+    border-radius: 0.42vw;
+    padding: 0.63vw 1.2vw;
 }
 
 .top-section,
 .bottom-section {
     background-color: #CFE5FF;
-    height: 540px;
+    height: 28.13vw;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .bottom-section {
-    margin-top: 138px;
+    margin-top: 7.19vw;
 }
 
-.top-section>img {
-    width: 746px;
-    height: 340px;
+.top-section img {
+    width: 38.85vw;
+    height: 17.71vw;
 }
 
-.bottom-section>img {
-    width: 746px;
-    height: 397px;
+.bottom-section img {
+    width: 38.85vw;
+    height: 20.68vw;
 }
 
 .top-section-container {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 0.36vw;
 }
 
 .bottom-section-container {
     display: flex;
     align-items: center;
-    gap: 69px;
+    gap: 3.59vw;
 }
 
 .top-section-text,
 .bottom-section-text {
-    padding-bottom: 60px;
+    padding-bottom: 3.13vw;
 }
 
 .top-section-text p,
 .bottom-section-text p {
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 2.92vw;
     color: #374151;
 }
 
@@ -120,9 +120,9 @@ a {
     font-weight: 600;
     color: #ffffff;
     background-color: #3692FF;
-    padding: 16px 124px;
-    border-radius: 40px;
-    margin-top: 32px;
+    padding: 0.83vw 6.46vw;
+    border-radius: 2.08vw;
+    margin-top: 1.67vw;
     display: inline-block;
 }
 
@@ -130,7 +130,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 138px 0;
+    padding: 7.19vw 0;
 }
 
 .hot-item,
@@ -138,56 +138,56 @@ a {
 .register {
     display: flex;
     align-items: center;
-    gap: 64px;
+    gap: 3.33vw;
     background-color: #fcfcfc;
-    border-radius: 12px;
+    border-radius: 0.63vw;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.63vw;
 }
 
 .hot-item .text-container,
 .register .text-container {
-    padding-right: 24px;
+    padding-right: 1.25vw;
 }
 
 .search .text-container {
-    padding-left: 24px;
+    padding-left: 1.25vw;
 }
 
 .small-text {
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 2.92vw;
     color: #3692FF;
 }
 
 .big-text {
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 2.92vw;
     color: #374151;
 }
 
 .main-section p {
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1.67vw;
     color: #374151;
 }
 
 .main-section img {
-    width: 579px;
-    height: 444px;
+    width: 30.16vw;
+    height: 23.13vw;
 }
 
 footer {
     background-color: #111827;
-    height: 160px;
-    padding: 32px 400px;
+    height: 8.33vw;
+    padding: 1.67vw 20vw;
     display: flex;
     justify-content: space-between;
 }
@@ -195,23 +195,28 @@ footer {
 .codeit {
     font-size: 1rem;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 0.99vw;
     color: #9CA3AF
 }
 
 .footer-center {
     display: flex;
-    gap: 30px;
+    gap: 1.56vw;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 0.99vw;
     color: #E5E7EB;
 }
 
 .footer-right a {
-    margin-right: 12px;
+    margin-right: 0.63vw;
 }
 
 .footer-right a:last-child {
     margin: 0;
+}
+
+.footer-right img {
+    width: 1.04vw;
+    height: 1.04vw;
 }
