@@ -12,6 +12,10 @@ html {
     src: url("fonts/ROKAF_Slab_Serif_Bold.woff") format('woff');
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
 
 header {
     border-bottom: 1px solid #DFDFDF;
@@ -29,7 +33,6 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
-    text-decoration: none;
 }
 .header__logo{
     width: 40px;
@@ -94,15 +97,104 @@ header {
     height: auto;
 }
 
-
 .button {
     display: inline-block;
     background-color: #3692FF;
     font-weight: 600;
-    text-decoration: none;
     text-align: center;
 }
 
 .button:hover {
     background-color: #1967D6;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 138px 457px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 988px;
+    height: 444px;
+    background-color: #FCFCFC;
+    border-radius: 12px;
+    gap : 64px;
+}
+
+.card__img {
+    max-width: 579px;
+    width: 60%;
+    height: 100%;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    width: auto;
+    height: 238px;
+    white-space: nowrap;
+}
+
+.card__category {
+    font-size: 18px;
+    color: #3692FF;
+    font-weight: 700;
+}
+
+.card__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #374151;
+    line-height: 56px;
+}
+
+.card__description {
+    font-size: 24px;
+    font-weight: 500;
+    color: #374151;
+    line-height: 32px;
+}
+
+.card--reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.center {
+    align-self: center;
+    padding-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111827;
+    padding: 32px 400px;
+    height: 160px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer__name{
+    color: #9CA3AF; 
+}
+
+.footer-links{
+    display: flex;
+    gap: 30px;
+}
+
+.footer__link{
+    color: #E5E7EB;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 12px; 
 }
