@@ -7,6 +7,10 @@ html {
     font-family: 'Pretendard', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: 'ROKAF Sans';
     src: url("fonts/ROKAF_Slab_Serif_Bold.woff") format('woff');
@@ -17,6 +21,12 @@ a {
     text-decoration: none;
 }
 
+.text-wrap{
+    display: block;
+}
+
+
+/*herader section*/
 header {
     border-bottom: 1px solid #DFDFDF;
 }
@@ -55,6 +65,8 @@ header {
     color: #F3F4F6;
 }
 
+
+/*banner section*/
 .banner-section {
     background-color: #CFE5FF;
 }
@@ -65,15 +77,22 @@ header {
     align-items: flex-end;
     height: 540px;
     gap: 7px;
-    width: 100vw;
 }
 
-.banner__title-text {
+.banner__title {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.banner__text {
     font-weight: 700;
     font-size: 40px;
     color: #374151; 
     line-height: 56px;
 }
+
 
 .banner__button {
     border-radius: 40px;
@@ -85,14 +104,13 @@ header {
     margin-bottom: 110px;
 }
 
-.banner__title {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.bottom-banner {
+    margin-top: 138px;
 }
 
+
 .banner__img {
-    width: 40vw;
+    width: 60vw;
     max-width: 746px;
     height: auto;
 }
@@ -108,18 +126,20 @@ header {
     background-color: #1967D6;
 }
 
+
+/*card section*/
 .card-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 138px 457px;
+    padding-block: 138px;
 }
 
 .card {
     display: flex;
     align-items: center;
     width: 988px;
-    height: 444px;
+    height: 437px;
     background-color: #FCFCFC;
     border-radius: 12px;
     gap : 64px;
@@ -127,7 +147,7 @@ header {
 
 .card__img {
     max-width: 579px;
-    width: 60%;
+    width: 100%;
     height: 100%;
 }
 
@@ -166,16 +186,17 @@ header {
     text-align: right;
 }
 
-.center {
+.banner__title--center {
     align-self: center;
     padding-top: 30px;
 }
 
+/*footer section*/
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #111827;
-    padding: 32px 400px;
+    padding-top: 32px;
     height: 160px;
     font-size: 16px;
     font-weight: 400;
@@ -197,4 +218,116 @@ header {
 .footer-icons{
     display: flex;
     gap: 12px; 
+}
+
+/*Laptop Version*/
+@media (max-width: 1024px) {
+
+   .herader-nav {
+        margin-inline: 10%;
+    }
+    
+    .banner {
+        height: 450px;
+    }
+
+    .banner__button {
+        width: 100%;
+        white-space: nowrap;
+        text-align: center;
+        padding: 16px 96px;
+    }
+
+    .card {
+        max-width: 760px;
+        height: 437px;
+        gap: 48px;
+    }
+
+    .card__img {
+        width: 60%;
+    }
+
+    .card__title {
+        font-size: 32px;
+    }
+    
+    .card__description {
+        font-size: 18px;
+    }
+    
+}
+
+
+/*Tablet Version*/
+@media (max-width: 768px) {
+
+    .herader-nav {
+        margin-inline: 10%;
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 771px;
+        gap: 0;
+    }
+    
+    .banner__button {
+        width: auto;
+        padding: 16px 124px;
+    }
+
+    .banner__title {
+        align-items: center;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .text-wrap{
+        display: inline;
+    }
+
+    .banner__img {
+        max-width: 744px;
+        width: 100%;
+    }
+
+    .card {
+        max-width: 696px;
+        height: 708px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .card__text {
+        text-align: left;
+        height: 160px;
+        gap: 24px;
+    }
+
+    .card__title {
+        font-size: 32px;
+        line-height: 26px;
+    }
+    
+    .card__description {
+        font-size: 18px;
+    }
+
+    .card__img {
+        max-width: 696px;
+        width: auto;
+        height: auto;
+    }
+
+    .card--reverse {
+        align-items: flex-end;
+    }
+
+    .card__text--reverse {
+        text-align: right;
+    }
 }
