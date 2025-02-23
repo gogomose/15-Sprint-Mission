@@ -4,40 +4,52 @@
 }
 
 html {
-    font-family: 'Noto Sans KR', 'Poppins', sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
-.header {
+@font-face {
+    font-family: 'ROKAF Sans';
+    src: url("fonts/ROKAF_Slab_Serif_Bold.woff") format('woff');
+}
+
+
+header {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.herader-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-inline: 200px;
-    border-bottom: 1px solid #DFDFDF;
     padding: 9px 0;
 }
 
-.header__logo {
-    width: 153px;
-    height: 51px;
-}
-
-.button {
-    background-color: #3692FF;
-    font-weight: 600;
+.header__logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     text-decoration: none;
-    text-align: center;
+}
+.header__logo{
+    width: 40px;
+    height: 40px;
 }
 
-.button.login-button {
+.header__title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3692FF;
+    font-family: 'ROKAF Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+.header__button {
     border-radius: 8px;
     width: 128px;
     height: 48px;
-    padding: 12px 23px;
+    padding: 14px 23px;
     color: #F3F4F6;
-}
-
-.button:hover {
-    background-color: #1967D6;
 }
 
 .banner-section {
@@ -61,15 +73,13 @@ html {
 }
 
 .banner__button {
-    display: inline-block;
     border-radius: 40px;
     padding: 16px 124px;
     width: 357px;
     height: 56px;
     color: #F9FAFB;
     font-size: 20px;
-    margin-bottom: 60px;
-    white-space: nowrap;
+    margin-bottom: 110px;
 }
 
 .banner__title {
@@ -82,4 +92,17 @@ html {
     width: 40vw;
     max-width: 746px;
     height: auto;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #3692FF;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #1967D6;
 }
