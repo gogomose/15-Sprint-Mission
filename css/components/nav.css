@@ -5,9 +5,9 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: calc(100% - 400px);
+  width: 100%;
   max-width: 1920px;
   height: 70px;
   padding: 9px 0;
@@ -25,8 +25,9 @@ nav {
   }
 }
 
-@media (min-width: 1920px) {
+@media (max-width: 1920px) {
   nav {
-    width: 100%;
+    justify-content: space-between;
+    width: calc(100% - 400px);
   }
 }

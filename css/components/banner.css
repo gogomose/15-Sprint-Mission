@@ -1,4 +1,6 @@
 .main-banner {
+  display: flex;
+  justify-content: center;
   background-color: #cfe5ff;
   width: 100%;
   height: 540px;
@@ -8,14 +10,9 @@ banner {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  width: calc(100% - 400px);
+  width: 100%;
   max-width: 1920px;
-  margin: 0 auto;
   height: 100%;
-  img {
-    width: 746px;
-    height: 340px;
-  }
 }
 
 .main-banner__content {
@@ -39,8 +36,12 @@ banner {
   }
 }
 
-@media (min-width: 1920px) {
+.main-banner-bottom__content {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1920px) {
   banner {
-    width: 100%;
+    width: calc(100% - 400px);
   }
 }
