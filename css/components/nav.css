@@ -11,6 +11,9 @@ nav {
   max-width: 1920px;
   height: 70px;
   padding: 9px 0;
+  a {
+    height: 100%;
+  }
   img {
     height: 100%;
   }
@@ -22,6 +25,7 @@ nav {
     border: none;
     color: #ffffff;
     background-color: #3692ff;
+    cursor: pointer;
   }
 }
 
