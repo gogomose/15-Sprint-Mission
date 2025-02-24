@@ -441,11 +441,6 @@ footer {
 	.ad > .title {
 		font-size: 32px;
 	}
-
-	.ft_content_wrap {
-		flex-direction: column;
-		gap: 16px;
-	}
 }
 
 /* Media Query */
