@@ -116,7 +116,11 @@
     gap: 12px;
 }
 
-.section-text.right-align{
+.section-text.card1{
+    padding-right: 24px;
+}
+
+.section-text.card2{
     text-align: right;
 }
 
@@ -131,6 +135,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 56px;
+    margin-top: 12px;
 }
 
 .section-text-bottom{
@@ -138,6 +143,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
+    margin-top: 24px;
 }
 
 .bottom {
