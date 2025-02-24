@@ -1,0 +1,193 @@
+/* 전체 적용 (margin,padding) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Pretendard, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* 헤더 */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 9px 20%;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* 헤더 이미지 */
+.headerImg {
+  width: 30%;
+  height: auto;
+}
+
+/* 헤더 로그인 */
+.loginBtn {
+  background-color: #3692ff;
+  color: white;
+  border-radius: 8px;
+  padding: 0.75rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  width: 8rem;
+  height: 3rem;
+  white-space: nowrap;
+}
+
+/* 상단 배너 */
+.contents {
+  display: flex;
+  background-color: #cfe5ff;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* 상단/하단 배너 요소의 박스요소 스타일 적용  */
+.contents .content {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5% 2.5%;
+  margin-left: auto;
+  max-width: fit-content;
+}
+
+/* 상단/하단 배너 요소의 박스 안 h태그 스타일 적용 */
+.content h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+/* 배너 요소 안 '구경하러 가기' 버튼 스타일 적용 */
+.contentBtn {
+  padding: 1rem 10%;
+  background-color: #3692ff;
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+/* 배너(contents) 안의 이미지 요소 크기 적용 */
+.contentImg {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* main 컨텐츠 Display 적용 */
+.mainContents {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+
+/* main 요소 안 각 Section 요소  */
+.mainContent,
+.mainContent_even {
+  padding: 5% 30%;
+  gap: 5%;
+  background-color: #fcfcfc;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
+
+/* main 컨텐츠 이미지 요소 크기 적용 */
+.mainContentImg {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.imageText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-wrap: nowrap;
+}
+
+/* mainContent 내부의 글자 요소 스타일 적용 */
+.imageText h4 {
+  color: #3692ff;
+  font-weight: 700;
+  font-size: 1.125vw;
+}
+
+.imageText h2 {
+  color: #374151;
+  font-weight: 700;
+  font-size: 2.5vw;
+  letter-spacing: 2%;
+}
+
+.imageText p {
+  color: #374151;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+/* footer */
+#footer {
+  background-color: #111827;
+  display: flex;
+  padding: 2rem 5%;
+}
+
+/* footer안의 내부 요소를 감싼 div 스타일 적용 */
+.footerContents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* footer 좌측 content   */
+.footerContents span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #9ca3af;
+}
+
+/* footer 중앙 content */
+.footerPolicy {
+  display: flex;
+  gap: 30px;
+}
+
+.footerPolicy a {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+/* footer 우측 content */
+.footerSns {
+  display: flex;
+  gap: 12px;
+}
+
+.footerSns a {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+}
