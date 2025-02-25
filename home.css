@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  font-size: 16px;
+  font-family: 'Pretendard', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  max-width: 1520px;
+  min-width: 1120px;
+  width: 100%;
+  padding: 9px 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login_button {
+  width: 128px;
+  height: 48px;
+  padding: 12px 23px;
+  border-radius: 8px;
+  background-color: #3692FF;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: #F3F4F6;
+  line-height: 26px;
+}
+
+.top, .bottom {
+  height: 540px;
+  background-color: #CFE5FF;
+}
+
+.top {
+  padding-top: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+main section {
+  padding: 138px 0;
+}
+
+main .container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  width: 988px;
+  height: 444px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: #FCFCFC;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.content.right {
+  text-align: right;
+}
+
+.badge {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3692FF;
+  line-height: 26px;
+}
+
+.content-title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: #374151;
+  line-height: 56px;
+}
+
+.shopping-button {
+  width: 360px;
+  height: 56px;
+  padding: 16px 124px;
+  border-radius: 40px;
+  background-color: #3692FF;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #F9FAFB;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+  color: #374151;
+  line-height: 32px;
+}
+
+.bottom {
+  padding-top: 143px;
+}
+
+footer {
+  height: 160px;
+  padding: 32px 0;
+  background-color: #111827;
+}
+
+footer .container{
+  max-width: 1520px;
+  min-width: 1120px;
+  width: 100%;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .codeit {
+  color: #9CA3AF;
+}
+
+footer .link {
+  display: flex;
+  gap: 30px;
+}
+
+footer .link a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+footer .sns {
+  display: flex;
+  gap: 12px;
+}
