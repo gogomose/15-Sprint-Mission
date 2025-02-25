@@ -54,6 +54,7 @@
     border: 1px solid var(--button-color);
     flex-shrink: 0;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -201,6 +202,7 @@
      display: inline-block;
      border: 1px solid var(--button-color);
      border-radius: 40px;
+     cursor: pointer;
 }
 
 
