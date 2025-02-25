@@ -8,18 +8,27 @@ body {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
 }
 /* 네비게이션 바 */
 .nav-bar {
   display: flex;
-  justify-content: space-between;
-  margin: 0 200px;
+  justify-content: center;
   align-items: center;
-  padding: 16px 24px;
+}
+
+.nav-logo img {
+  flex-shrink: 0;
+  margin-left: 200px;
+}
+
+.nav-spacer {
+  flex: 1;
 }
 
 .nav-login-button {
+  margin-right: 200px;
   padding: 12px 40px;
   background-color: #3692ff;
   color: #fff;
@@ -54,15 +63,18 @@ a {
 }
 
 /* 메인 컨텐츠 */
+.main-content {
+  max-width: 1200px;
+  margin: 120px auto;
+}
 .main-content section {
   min-width: 1200px;
-
   width: 100%;
-  padding: 80px;
+  padding: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
 }
 
 .main-content-text {
