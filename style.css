@@ -160,3 +160,34 @@ body {
   word-break: keep-all;
   font-family: "Pretendard", sans-serif;
 }
+
+/* 원래 사이즈 */
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* 브라우저의 가로길이가 768px 이상이면 아래 사이즈를 입혀라 */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+/* 브라우저의 가로길이가 992px 이상이면 아래 사이즈를 입혀라 */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 32px;
+  }
+}
